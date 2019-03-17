@@ -30,7 +30,7 @@ namespace LeetCode
 
             var watch = System.Diagnostics.Stopwatch.StartNew();
             Console.WriteLine(
-                "Test case medium array : " + (MaxArea(mediumArray) == 133112 ? "Passed" : "Failed")
+                "Test case medium array : " + (MaxArea(MediumArray) == 133112 ? "Passed" : "Failed")
             );
             watch.Stop();
             var elapsedMs = watch.ElapsedMilliseconds;
@@ -45,7 +45,7 @@ namespace LeetCode
             Console.ReadLine();
         }
 
-        private int[] mediumArray
+        private int[] MediumArray
         {
             get
             {
