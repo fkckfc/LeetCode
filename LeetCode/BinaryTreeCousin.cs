@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace LeetCode
 {
+    //[Depth First Search]
+    //[Binary Tree] 
     public class TreeNode
     {
         public TreeNode(int[] values) : this(values, 0) { }
@@ -43,6 +45,8 @@ namespace LeetCode
         {
             int[] nodes = new int[] { 1, 2, 3, 0, 4, 0, 5 };
             TreeNode root = new TreeNode(nodes);
+
+            Console.WriteLine("Binary Tree Cousin");
 
             Console.WriteLine(
                 "Test case 0 : " + (IsCousins(root, 4, 5) == true ? "Passed" : "Failed")

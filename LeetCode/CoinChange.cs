@@ -22,6 +22,9 @@ namespace LeetCode
     ///You may assume that you have an infinite number of each kind of coin.
 
     ///</summary>
+    ///
+
+    //[Dynamic Programming] 
     class CoinChange
     {
         public CoinChange()
@@ -40,7 +43,8 @@ namespace LeetCode
             this.coins = coins;
             this.amount = amount;
 
-            return BFS();
+            //return BFS();
+            return BottomUp();
         }
 
         private int BFS()
@@ -80,6 +84,24 @@ namespace LeetCode
             }
 
             return -1;
+        }
+
+        private int BottomUp()
+        {
+            int max = amount + 1;
+            int[] dp = Enumerable.Repeat<int>(max, amount + 1).ToArray();
+            dp[0] = 0;
+            for (int i = 1; i <= amount; i++)
+            {
+                for (int j = 0; j < coins.Length; j++)
+                {
+                    if (coins[j] <= i)
+                    {
+                        dp[i] = Math.Min(dp[i], dp[i - coins[j]] + 1);
+                    }
+                }
+            }
+            return dp[amount] > amount ? -1 : dp[amount];
         }
     }
 }
