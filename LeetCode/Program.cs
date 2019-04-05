@@ -10,24 +10,28 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TwoSum ts = new TwoSum();
-            JumpGame jg = new JumpGame();
-            LongestSubstringWithoutRepeatChar sw = new LongestSubstringWithoutRepeatChar();
-            WaterContainer wc = new WaterContainer();
-            CombinationSum cs = new CombinationSum();
-            Lexicographic_Permutation lp = new Lexicographic_Permutation();
-            BinaryTreeCousin btc = new BinaryTreeCousin();
-            ClosestToOrigin cto = new ClosestToOrigin();
-            BrokenCalculator bc = new BrokenCalculator();
-            FibonacciFrog ff = new FibonacciFrog();
-            CheapestTicket ct = new CheapestTicket();
-            CoinChange cc = new CoinChange();
-            HouseRobber1 hr = new HouseRobber1();
-            CallMyCalendar();
-            LongestPalindrome longPalind = new LongestPalindrome();
-            GameOfLife gol = new GameOfLife();
-            SplitArray sa = new SplitArray();
-            MinimumPathSum mps = new MinimumPathSum();
+            //TwoSum ts = new TwoSum();
+            //JumpGame jg = new JumpGame();
+            //LongestSubstringWithoutRepeatChar sw = new LongestSubstringWithoutRepeatChar();
+            //WaterContainer wc = new WaterContainer();
+            //CombinationSum cs = new CombinationSum();
+            //Lexicographic_Permutation lp = new Lexicographic_Permutation();
+            //BinaryTreeCousin btc = new BinaryTreeCousin();
+            //ClosestToOrigin cto = new ClosestToOrigin();
+            //BrokenCalculator bc = new BrokenCalculator();
+            //FibonacciFrog ff = new FibonacciFrog();
+            //CheapestTicket ct = new CheapestTicket();
+            //CoinChange cc = new CoinChange();
+            //HouseRobber1 hr = new HouseRobber1();
+            //CallMyCalendar();
+            //LongestPalindrome longPalind = new LongestPalindrome();
+            //GameOfLife gol = new GameOfLife();
+            //SplitArray sa = new SplitArray();
+            //MinimumPathSum mps = new MinimumPathSum();
+            //WordBreak wb = new WordBreak();
+            UniquePaths up = new UniquePaths();
+
+            //Codility c = new Codility();
         }
 
         public static void CallMyCalendar()
