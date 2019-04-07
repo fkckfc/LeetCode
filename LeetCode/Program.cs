@@ -29,7 +29,9 @@ namespace LeetCode
             //SplitArray sa = new SplitArray();
             //MinimumPathSum mps = new MinimumPathSum();
             //WordBreak wb = new WordBreak();
-            UniquePaths up = new UniquePaths();
+            //UniquePaths up = new UniquePaths();
+
+            CodilityTest d = new CodilityTest();
 
             //Codility c = new Codility();
         }
