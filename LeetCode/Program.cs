@@ -30,8 +30,8 @@ namespace LeetCode
             //MinimumPathSum mps = new MinimumPathSum();
             //WordBreak wb = new WordBreak();
             //UniquePaths up = new UniquePaths();
-
-            CodilityTest d = new CodilityTest();
+            //PerfectSquares ps = new PerfectSquares();
+            CodilityTest codility = new CodilityTest();
 
             //Codility c = new Codility();
         }
