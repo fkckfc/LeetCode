@@ -31,9 +31,10 @@ namespace LeetCode
             //WordBreak wb = new WordBreak();
             //UniquePaths up = new UniquePaths();
             //PerfectSquares ps = new PerfectSquares();
-            CodilityTest codility = new CodilityTest();
+            //CodilityTest codility = new CodilityTest();
+            NumberOfIslands noi = new NumberOfIslands();
 
-            //Codility c = new Codility();
+
         }
 
         public static void CallMyCalendar()

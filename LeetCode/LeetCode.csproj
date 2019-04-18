@@ -60,6 +60,7 @@
     <Compile Include="LongestPalindrome.cs" />
     <Compile Include="MinimumPathSum.cs" />
     <Compile Include="MyCalendar.cs" />
+    <Compile Include="NumberOfIslands.cs" />
     <Compile Include="Particles.cs" />
     <Compile Include="PerfectSquares.cs" />
     <Compile Include="Program.cs" />
