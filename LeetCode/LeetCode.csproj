@@ -51,6 +51,7 @@
     <Compile Include="CodilityTest.cs" />
     <Compile Include="CoinChange.cs" />
     <Compile Include="CombinationSum.cs" />
+    <Compile Include="HouseRobber2.cs" />
     <Compile Include="JumpGame.cs" />
     <Compile Include="FibonacciFrog.cs" />
     <Compile Include="FruitCollection.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="NumberOfIslands.cs" />
     <Compile Include="Particles.cs" />
     <Compile Include="PerfectSquares.cs" />
+    <Compile Include="PlusMinusZero.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LongestSubstringWithoutRepeatChar.cs" />
